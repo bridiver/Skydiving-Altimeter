@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842805042BBA2D1C00221050 /* Skydiving Altimeter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 842805032BBA2D1C00221050 /* Skydiving Altimeter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		842805092BBA2D1C00221050 /* Skydiving_AltimeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805082BBA2D1C00221050 /* Skydiving_AltimeterApp.swift */; };
+		8428050B2BBA2D1C00221050 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428050A2BBA2D1C00221050 /* ContentView.swift */; };
+		8428050D2BBA2D1D00221050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428050C2BBA2D1D00221050 /* Assets.xcassets */; };
+		842805102BBA2D1D00221050 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8428050F2BBA2D1D00221050 /* Preview Assets.xcassets */; };
+		8428051A2BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805192BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppTests.swift */; };
+		842805242BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805232BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITests.swift */; };
+		842805262BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805252BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842805052BBA2D1C00221050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842804F72BBA2D1B00221050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842805022BBA2D1C00221050;
+			remoteInfo = "Skydiving Altimeter Watch App";
+		};
+		842805162BBA2D1D00221050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842804F72BBA2D1B00221050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842805022BBA2D1C00221050;
+			remoteInfo = "Skydiving Altimeter Watch App";
+		};
+		842805202BBA2D1D00221050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842804F72BBA2D1B00221050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842805022BBA2D1C00221050;
+			remoteInfo = "Skydiving Altimeter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8428052C2BBA2D1D00221050 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				842805042BBA2D1C00221050 /* Skydiving Altimeter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		842804FD2BBA2D1C00221050 /* Skydiving Altimeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skydiving Altimeter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842805032BBA2D1C00221050 /* Skydiving Altimeter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skydiving Altimeter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842805082BBA2D1C00221050 /* Skydiving_AltimeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skydiving_AltimeterApp.swift; sourceTree = "<group>"; };
+		8428050A2BBA2D1C00221050 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8428050C2BBA2D1D00221050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8428050F2BBA2D1D00221050 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		842805152BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skydiving Altimeter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842805192BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skydiving_Altimeter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8428051F2BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skydiving Altimeter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842805232BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skydiving_Altimeter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		842805252BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842805002BBA2D1C00221050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842805122BBA2D1D00221050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428051C2BBA2D1D00221050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842804F62BBA2D1B00221050 = {
+			isa = PBXGroup;
+			children = (
+				842805072BBA2D1C00221050 /* Skydiving Altimeter Watch App */,
+				842805182BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests */,
+				842805222BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests */,
+				842804FE2BBA2D1C00221050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842804FE2BBA2D1C00221050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842804FD2BBA2D1C00221050 /* Skydiving Altimeter.app */,
+				842805032BBA2D1C00221050 /* Skydiving Altimeter Watch App.app */,
+				842805152BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests.xctest */,
+				8428051F2BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842805072BBA2D1C00221050 /* Skydiving Altimeter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				842805082BBA2D1C00221050 /* Skydiving_AltimeterApp.swift */,
+				8428050A2BBA2D1C00221050 /* ContentView.swift */,
+				8428050C2BBA2D1D00221050 /* Assets.xcassets */,
+				8428050E2BBA2D1D00221050 /* Preview Content */,
+			);
+			path = "Skydiving Altimeter Watch App";
+			sourceTree = "<group>";
+		};
+		8428050E2BBA2D1D00221050 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8428050F2BBA2D1D00221050 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		842805182BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				842805192BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppTests.swift */,
+			);
+			path = "Skydiving Altimeter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		842805222BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842805232BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITests.swift */,
+				842805252BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Skydiving Altimeter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842804FC2BBA2D1C00221050 /* Skydiving Altimeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428052D2BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter" */;
+			buildPhases = (
+				842804FB2BBA2D1C00221050 /* Resources */,
+				8428052C2BBA2D1D00221050 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842805062BBA2D1C00221050 /* PBXTargetDependency */,
+			);
+			name = "Skydiving Altimeter";
+			productName = "Skydiving Altimeter";
+			productReference = 842804FD2BBA2D1C00221050 /* Skydiving Altimeter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		842805022BBA2D1C00221050 /* Skydiving Altimeter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842805292BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch App" */;
+			buildPhases = (
+				842804FF2BBA2D1C00221050 /* Sources */,
+				842805002BBA2D1C00221050 /* Frameworks */,
+				842805012BBA2D1C00221050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skydiving Altimeter Watch App";
+			productName = "Skydiving Altimeter Watch App";
+			productReference = 842805032BBA2D1C00221050 /* Skydiving Altimeter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842805142BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842805302BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch AppTests" */;
+			buildPhases = (
+				842805112BBA2D1D00221050 /* Sources */,
+				842805122BBA2D1D00221050 /* Frameworks */,
+				842805132BBA2D1D00221050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842805172BBA2D1D00221050 /* PBXTargetDependency */,
+			);
+			name = "Skydiving Altimeter Watch AppTests";
+			productName = "Skydiving Altimeter Watch AppTests";
+			productReference = 842805152BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8428051E2BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842805332BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch AppUITests" */;
+			buildPhases = (
+				8428051B2BBA2D1D00221050 /* Sources */,
+				8428051C2BBA2D1D00221050 /* Frameworks */,
+				8428051D2BBA2D1D00221050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842805212BBA2D1D00221050 /* PBXTargetDependency */,
+			);
+			name = "Skydiving Altimeter Watch AppUITests";
+			productName = "Skydiving Altimeter Watch AppUITests";
+			productReference = 8428051F2BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842804F72BBA2D1B00221050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					842804FC2BBA2D1C00221050 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					842805022BBA2D1C00221050 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					842805142BBA2D1D00221050 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 842805022BBA2D1C00221050;
+					};
+					8428051E2BBA2D1D00221050 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 842805022BBA2D1C00221050;
+					};
+				};
+			};
+			buildConfigurationList = 842804FA2BBA2D1B00221050 /* Build configuration list for PBXProject "Skydiving Altimeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842804F62BBA2D1B00221050;
+			productRefGroup = 842804FE2BBA2D1C00221050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842804FC2BBA2D1C00221050 /* Skydiving Altimeter */,
+				842805022BBA2D1C00221050 /* Skydiving Altimeter Watch App */,
+				842805142BBA2D1D00221050 /* Skydiving Altimeter Watch AppTests */,
+				8428051E2BBA2D1D00221050 /* Skydiving Altimeter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842804FB2BBA2D1C00221050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842805012BBA2D1C00221050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842805102BBA2D1D00221050 /* Preview Assets.xcassets in Resources */,
+				8428050D2BBA2D1D00221050 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842805132BBA2D1D00221050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428051D2BBA2D1D00221050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842804FF2BBA2D1C00221050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428050B2BBA2D1C00221050 /* ContentView.swift in Sources */,
+				842805092BBA2D1C00221050 /* Skydiving_AltimeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842805112BBA2D1D00221050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428051A2BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8428051B2BBA2D1D00221050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842805242BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITests.swift in Sources */,
+				842805262BBA2D1D00221050 /* Skydiving_Altimeter_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842805062BBA2D1C00221050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842805022BBA2D1C00221050 /* Skydiving Altimeter Watch App */;
+			targetProxy = 842805052BBA2D1C00221050 /* PBXContainerItemProxy */;
+		};
+		842805172BBA2D1D00221050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842805022BBA2D1C00221050 /* Skydiving Altimeter Watch App */;
+			targetProxy = 842805162BBA2D1D00221050 /* PBXContainerItemProxy */;
+		};
+		842805212BBA2D1D00221050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842805022BBA2D1C00221050 /* Skydiving Altimeter Watch App */;
+			targetProxy = 842805202BBA2D1D00221050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		842805272BBA2D1D00221050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842805282BBA2D1D00221050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8428052A2BBA2D1D00221050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skydiving Altimeter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Skydiving Altimeter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		8428052B2BBA2D1D00221050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skydiving Altimeter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Skydiving Altimeter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		8428052E2BBA2D1D00221050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				INFOPLIST_KEY_CFBundleDisplayName = "Skydiving Altimeter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8428052F2BBA2D1D00221050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				INFOPLIST_KEY_CFBundleDisplayName = "Skydiving Altimeter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842805312BBA2D1D00221050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skydiving Altimeter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skydiving Altimeter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		842805322BBA2D1D00221050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skydiving Altimeter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skydiving Altimeter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		842805342BBA2D1D00221050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Skydiving Altimeter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		842805352BBA2D1D00221050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MP6LJTJ2AZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Skydiving Altimeter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842804FA2BBA2D1B00221050 /* Build configuration list for PBXProject "Skydiving Altimeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842805272BBA2D1D00221050 /* Debug */,
+				842805282BBA2D1D00221050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842805292BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428052A2BBA2D1D00221050 /* Debug */,
+				8428052B2BBA2D1D00221050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8428052D2BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428052E2BBA2D1D00221050 /* Debug */,
+				8428052F2BBA2D1D00221050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842805302BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842805312BBA2D1D00221050 /* Debug */,
+				842805322BBA2D1D00221050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842805332BBA2D1D00221050 /* Build configuration list for PBXNativeTarget "Skydiving Altimeter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842805342BBA2D1D00221050 /* Debug */,
+				842805352BBA2D1D00221050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842804F72BBA2D1B00221050 /* Project object */;
+}
