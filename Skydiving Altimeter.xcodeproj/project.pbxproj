@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8425CA802BBB2282005D8AA5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8425CA7F2BBB2282005D8AA5 /* CoreMotion.framework */; };
 		8425CB222BBB2647005D8AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425CB212BBB2647005D8AA5 /* Assets.xcassets */; };
 		842805092BBA2D1C00221050 /* Skydiving_AltimeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842805082BBA2D1C00221050 /* Skydiving_AltimeterApp.swift */; };
 		8428050B2BBA2D1C00221050 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428050A2BBA2D1C00221050 /* ContentView.swift */; };
@@ -54,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8425CA802BBB2282005D8AA5 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -485,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
