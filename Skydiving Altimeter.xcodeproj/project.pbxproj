@@ -433,12 +433,10 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Skydiving Altimeter Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=watchos*]" = MP6LJTJ2AZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Skydiving-Altimeter-Watch-App-Info.plist";
@@ -456,7 +454,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "skydiving altimeter";
 				SDKROOT = watchos;
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -474,7 +471,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Skydiving Altimeter Watch App/Preview Content\"";
@@ -497,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bridiver.Skydiving-Altimeter.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "skydiving altimeter";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = "altimeter-appstore";
 				SDKROOT = watchos;
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
