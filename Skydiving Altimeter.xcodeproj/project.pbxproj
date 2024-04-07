@@ -470,8 +470,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = YES;
-				CODE_SIGN_IDENTITY = "Apple Distribution: Brian Johnson (MP6LJTJ2AZ)";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "Apple Distribution: Brian Johnson (MP6LJTJ2AZ)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Skydiving Altimeter Watch App/Preview Content\"";
